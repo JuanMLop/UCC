@@ -34,4 +34,9 @@ class Empleado:
     def ConsultarNombreCompleto(self):
         # Aqui va el codigo del medoto
         return self.nombre +" "+ self.apellido
+    def AumentoSalario(self):
+        nSalario= self.salario * 0.05
+        nSalario= nSalario + self.salario
+        self.salario= nSalario
+        return "El nuevo salario es de: " + self.salario
     
