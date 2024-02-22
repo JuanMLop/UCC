@@ -33,5 +33,5 @@ class Empleado:
         return self.apellido
     def ConsultarNombreCompleto(self):
         # Aqui va el codigo del medoto
-        return self.nombre + self.apellido
+        return self.nombre +" "+ self.apellido
     
